@@ -59,7 +59,7 @@ class FuelType extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final deviceWidth = MediaQuery.of(context).size.width;
+    // final deviceWidth = MediaQuery.of(context).size.width;
     return InkWell(onTap:(){
       goToVehicleTransmission(context);
       detailsController.fuelController.text = fuel.toString();
